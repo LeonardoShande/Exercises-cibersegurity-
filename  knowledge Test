@@ -1,0 +1,16 @@
+### Analiza la siguiente línea de log:
+
+192.168.1.50 - - [15/Jan/2024:10:05:01] "GET /products.php?id=10' OR '1'='1' HTTP/1.1" 200 452
+¿A qué tipo de ataque corresponde este patrón?
+
+A.
+DDoS
+
+B.
+Cross-Site Scripting (XSS)
+
+C.
+Brute Force
+
+D.
+SQL Injection (SQLi)
