@@ -21,3 +21,137 @@ D.
 SQL Injection (SQLi)
 
 Ejercicio 2
+>>En un log de acceso, ves cientos de peticiones seguidas a archivos inexistentes como /admin, /.env, /config.php.bak y /backup.zip con código 404. ¿Qué está ocurriendo?
+
+A.
+Actualización automática del CMS.
+
+B.
+Un ataque de Ransomware en curso.
+
+C.
+Enumeración de directorios (Fuzzing).
+
+D.
+Un error de configuración del servidor DNS.
+
+
+
+Ejercicio 3
+>>Si un log muestra una petición con el código de estado HTTP 403, ¿qué significa para el atacante?
+
+A.
+La petición fue exitosa.
+
+B.
+Acceso Prohibido.
+
+C.
+El servidor ha colapsado.
+
+D.
+El recurso no fue encontrado.
+
+Ejercicio 4
+Un log muestra: GET /view?file=../../../../etc/passwd HTTP/1.1. ¿Cuál es el objetivo de este ataque?
+A.
+Phishing.
+
+B.
+Inyección de HTML.
+
+C.
+Ataque Man-in-the-Middle.
+
+D.
+Local File Inclusion / Path Traversal.
+
+Ejercicio 5 
+>>Encuentras esta entrada: POST /login.php con un User-Agent que dice sqlmap/1.4.10#stable (http://sqlmap.org). ¿Qué información te da esto?
+
+A.
+Se está usando una herramienta automatizada de inyección SQL.
+
+B.
+Es un ataque de desbordamiento de búfer (Buffer Overflow).
+
+C.
+El servidor está intentando actualizar su base de datos.
+
+D.
+El atacante es un usuario de Chrome legítimo.
+
+Ejercicio 6
+>>¿Cuál de estas medidas sería la más efectiva para mitigar el ataque detectado en la Pregunta 1 (SQLi)?
+
+A.
+Ocultar la dirección IP del servidor.
+
+B.
+Cambiar la contraseña del administrador.
+
+C.
+Instalar un antivirus en el servidor.
+
+D.
+Usar Sentencias Preparadas (Prepared Statements).
+
+Ejercicio 7
+>>Observas una IP realizando 50 peticiones POST a /login.php por segundo. ¿Cuál es la respuesta inmediata más adecuada?
+
+A.
+Borrar los logs para ahorrar espacio.
+
+B.
+Bloquear temporalmente la IP en el Firewall o WAF.
+
+C.
+Reiniciar el servidor web.
+
+D.
+Contactar al proveedor de internet del atacante.
+
+Ejercicio 8
+>>En el contexto de logs, ¿qué indica un código de estado 500 después de una cadena de inyección extraña?
+
+A.
+Que el atacante ha logrado privilegios de root.
+
+B.
+Que la conexión a internet del servidor es lenta.
+
+C.
+Que la inyección causó un error inesperado en el código del servidor.
+
+D.
+Que el ataque fue bloqueado exitosamente.
+
+Ejercicio 9
+>> Si ves una petición con caracteres como %20, %27 o %3C, ¿qué proceso ha ocurrido en la URL?
+
+A.
+Hushing.
+
+B.
+Cifrado AES.
+
+C.
+Compresión Gzip.
+
+D.
+URL Encoding (Percent-encoding).
+
+Ejercicio 10
+>>¿Por qué es importante sincronizar la hora (NTP) de todos los servidores al analizar logs de un incidente?
+
+A.
+Para evitar ataques de denegación de servicio.
+
+B.
+Para cumplir con la ley de protección de datos.
+
+C.
+Para que los servidores funcionen más rápido.
+
+D.
+Para poder correlacionar eventos entre distintos dispositivos.
