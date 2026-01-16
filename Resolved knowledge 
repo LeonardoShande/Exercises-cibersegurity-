@@ -1,0 +1,15 @@
+Ejercicio 1
+
+D.
+SQL Injection (SQLi)
+
+Respuesta correcta
+El uso de comillas simples seguidas de una condición lógica siempre verdadera ('1'='1') es la firma clásica para saltar validaciones de bases de datos.
+
+Ejercicio 2
+
+C.
+Enumeración de directorios (Fuzzing).
+
+¡Así es!
+El atacante está intentando encontrar archivos sensibles o respaldos olvidados mediante el uso de diccionarios de nombres comunes.
